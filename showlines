@@ -1,0 +1,1 @@
+foo=1; cat $1 | while read line; do echo "Line $foo: $line"; foo=$(($foo + 1)); done
